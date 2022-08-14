@@ -289,6 +289,10 @@ nav {
     padding-top: 60px
 }
 
+#solution {
+    background-color: #f6f6f6;
+}
+
 #success-story {
     background-color: #f6f6f6;
 }
@@ -951,7 +955,7 @@ footer {
         height: 210px;
     }
 
-    #highlights, #success-story {
+    #highlights, #success-story, #solution {
         display: inline-block;
     }
 
@@ -1027,7 +1031,7 @@ footer {
         padding-top: 40px;
     }
 
-    #success-story, #highlights {
+    #success-story, #highlights, #solution {
         display: inline-block;
     }
 
@@ -1133,6 +1137,11 @@ footer {
 
     #services ul li {
         width: 32.5%;
+    }
+
+    #solution {
+        background-color: #f6f6f6;
+        display: inline-block;
     }
 
     #success-story {
@@ -1256,6 +1265,17 @@ footer {
     .col-6 {
         width: 100%;
         display: block;
+    }
+
+    #solution .slider {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+        flex-flow: column;
     }
 
     #success-story .slider {
